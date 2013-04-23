@@ -28,6 +28,7 @@ ruby minirake all test
 (For the sake of convenience, you might want to add mruby/bin to your path) 
 
 2. Grab some greens
+
 ```
 cd ..
 git clone git https://github.com/randym/mruby-avl
@@ -54,6 +55,7 @@ ruby minirake clean all test
 ```
 
 4. Enjoy your meal!
+
 ```
 mirb
 tree = AvlTree.new
