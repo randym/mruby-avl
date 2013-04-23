@@ -159,7 +159,7 @@ class AvlTree
       end
       usurper = path.pop
       path.last.send((opposite_direction.to_s + '=').to_sym, Node::TERMINAL)
-      path.reverse.each(&:balance_tree)
+      path.reverse.each {|node| node.balance_tree }
       usurper
     end
 

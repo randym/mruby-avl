@@ -180,7 +180,7 @@ assert('AvlTree delete using in order predecessor') do
     tree.insert item, nil
   end
   tree.delete 8
-  7 == tree.right
+  7 == tree.right.key
 end
 
 assert('AvlTree delete not found') do
